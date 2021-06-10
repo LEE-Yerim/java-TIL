@@ -1,1 +1,2 @@
-https://www.delftstack.com/ko/howto/java/how-to-add-new-elements-to-an-array-in-java/
+- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+- [Java에서 배열에 새 요소를 추가하는 방법](https://www.delftstack.com/ko/howto/java/how-to-add-new-elements-to-an-array-in-java/)
