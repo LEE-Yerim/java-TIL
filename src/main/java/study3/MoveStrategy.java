@@ -1,4 +1,4 @@
-package study;
+package study3;
 
 @FunctionalInterface
 public interface MoveStrategy {

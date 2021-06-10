@@ -1,4 +1,4 @@
-package study;
+package study3;
 
 public class Car {
     private final String name;
