@@ -42,8 +42,8 @@
     - [step1](https://github.com/LEE-Yerim/java-blackjack/tree/step1)
 
 ### 4주차 - FP
-- 함수형 프로그래밍
-- 자바 8 Stream, 람다
+- [함수형 프로그래밍]()
+- [자바 8 Stream, 람다]()
 
 ### 5주차 - OOP
 - 블랙잭 피드백
