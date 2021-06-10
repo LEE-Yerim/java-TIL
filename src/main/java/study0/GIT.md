@@ -1,1 +1,2 @@
 - [AngularJS Git Commit Message Conventions](https://gist.github.com/stephenparish/9941e89d80e2bc58a153)  
+- [pull 과 fetch 의 차이](https://backlog.com/git-tutorial/kr/stepup/stepup3_2.html)
