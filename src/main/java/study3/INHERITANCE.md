@@ -1,5 +1,8 @@
-# 📖 상속
+📖 상속
+======
+
 Starbuzz 커피 전문점을 통한 상속 이해
+--------------------------------
 
 ## 요구 사항
 Starbuzz 커피 전문점은 커피와 차를 판매한다. 커피와 차를 준비하는 과정은 각각 다음과 같다.
@@ -19,11 +22,11 @@ Starbuzz 커피 전문점은 커피와 차를 판매한다. 커피와 차를 준
 ## 구현하기
 ```java
 public class Coffee {
-void prepareRecipe() {
-boilWater();
-brewCoffeeGrinds();
-pourInCup();
-addSugarAndMilk();
+    void prepareRecipe() {
+    boilWater();
+    brewCoffeeGrinds();
+    pourInCup();
+    addSugarAndMilk();
 }
 
     public void boilWater() {
@@ -45,11 +48,11 @@ addSugarAndMilk();
 ```
 ```java
 public class Tea {
-void prepareRecipe() {
-boilWater();
-steepTeaBag();
-pourInCup();
-addLemon();
+    void prepareRecipe() {
+    boilWater();
+    steepTeaBag();
+    pourInCup();
+    addLemon();
 }
 
     public void boilWater() {
@@ -81,8 +84,8 @@ addLemon();
 ### 구현 코드
 ```java
 public class CaffeineBeverage {
-protected void boilWater() {
-System.out.println("물을 끓인다.");
+    protected void boilWater() {
+    System.out.println("물을 끓인다.");
 }
 
     protected void pourInCup() {
@@ -92,11 +95,11 @@ System.out.println("물을 끓인다.");
 ```
 ```java
 public class Coffee extends CaffeineBeverage {
-void prepareRecipe() {
-boilWater();
-brewCoffeeGrinds();
-pourInCup();
-addSugarAndMilk();
+    void prepareRecipe() {
+    boilWater();
+    brewCoffeeGrinds();
+    pourInCup();
+    addSugarAndMilk();
 }
 
     public void brewCoffeeGrinds() {
@@ -110,11 +113,11 @@ addSugarAndMilk();
 ```
 ```java
 public class Tea extends CaffeineBeverage {
-void prepareRecipe() {
-boilWater();
-steepTeaBag();
-pourInCup();
-addLemon();
+    void prepareRecipe() {
+    boilWater();
+    steepTeaBag();
+    pourInCup();
+    addLemon();
 }
 
     public void steepTeaBag() {
@@ -142,11 +145,11 @@ addLemon();
   - 커피나 차에 첨가물을 추가한다. => addCondiments() 메소드로 추상화
 ```java
 public class Coffee extends CaffeineBeverage {
-void prepareRecipe() {
-boilWater();
-brew();
-pourInCup();
-addCondiments();
+    void prepareRecipe() {
+    boilWater();
+    brew();
+    pourInCup();
+    addCondiments();
 }
 
     public void brew() {
@@ -160,11 +163,11 @@ addCondiments();
 ```
 ```java
 public class Tea extends CaffeineBeverage {
-void prepareRecipe() {
-boilWater();
-brew();
-pourInCup();
-addCondiments();
+    void prepareRecipe() {
+    boilWater();
+    brew();
+    pourInCup();
+    addCondiments();
 }
 
     public void brew() {
@@ -180,7 +183,7 @@ addCondiments();
 - prepareRecipe() 메소드를 부모 클래스인 CaffeineBeverage로 이동해 중복을 제거한다.
 ```java
 public abstract class CaffeineBeverage {
-abstract void brew();
+    abstract void brew();
 
     abstract void addCondiments();
     
@@ -202,9 +205,9 @@ abstract void brew();
 ```
 ```java
 public class Coffee extends CaffeineBeverage {
-public void brew() {
-System.out.println("필터를 활용해 커피를 내린다.");
-}
+    public void brew() {
+        System.out.println("필터를 활용해 커피를 내린다.");
+    }
 
     public void addCondiments() {
         System.out.println("설탕과 우유를 추가한다.");
@@ -213,9 +216,9 @@ System.out.println("필터를 활용해 커피를 내린다.");
 ```
 ```java
 public class Tea extends CaffeineBeverage {
-public void brew() {
-System.out.println("티백을 담근다.");
-}
+    public void brew() {
+        System.out.println("티백을 담근다.");
+    }
 
     public void addCondiments() {
         System.out.println("레몬을 추가한다.");
@@ -241,32 +244,32 @@ System.out.println("티백을 담근다.");
 
 ### 각 정의에 따른 코드 구현
 - 커피(Coffee)는 카페인 음료(CaffeineBeverage)이다.(O)
-```java
+```
 CaffeineBeverage beverage = new Coffee(); (O)
 ```
 - 카페인 음료(CaffeineBeverage)는 커피(Coffee)이다.(X)
-```java
+```
 Coffee coffee = new CaffeineBeverage(); (X)
 ```
 - 차(Tea)는 카페인 음료(CaffeineBeverage)이다.(O)
-```java
+```
 CaffeineBeverage beverage = new Tea(); (O)
 ```
 - 카페인 음료(CaffeineBeverage)는 차(Tea)다.(X)
-```java
+```
 Tea tea = new CaffeineBeverage(); (X)
 ```
 
 ### 업캐스팅(upcasting)
 - 하위 클래스를 상위 클래스로 타입을 변환하는 것을 의미한다.
-```java
+```
 CaffeineBeverage beverage = new Coffee(); (O)
 CaffeineBeverage beverage = new Tea(); (O)
 ```
 
 ### 다운캐스트(downcasting)
 - 상위 클래스를 하위 클래스의 타입으로 변환하는 것을 의미한다.
-```java
+```
 CaffeineBeverage beverage = new Coffee();
 
 if (beverage  instanceof Coffee) {
