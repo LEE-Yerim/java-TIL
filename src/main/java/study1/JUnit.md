@@ -1,3 +1,5 @@
+[참고자료](https://www.daleseo.com/assertj/)
+
 ### String Calculator Test
 - test 클래스의 package명은 main 클래스와 동일하게 한다.
 ```java
