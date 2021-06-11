@@ -6,46 +6,47 @@
 ## 커리큘럼
 
 ### 프리코스
-- [Git 및 GitHub 사용 방법 익히기](https://github.com/LEE-Yerim/java-TIL/blob/step1/GIT.md)
-- [IntelliJ IDEA 사용 방법 익히기](https://github.com/LEE-Yerim/java-TIL/blob/step1/INTELLIJ.md)
-- [자바 문법에 대한 이해 확인하기](https://github.com/LEE-Yerim/java-TIL/blob/step1/JAVA.md)
+- Git
+  - [Git 및 GitHub 사용 방법 익히기](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study0/Git.md)
+  - [Git](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study0/Git-Command.md)  
+  - [온라인 코드 리뷰 방식 공유](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study0/Git-CodeReview.md)
+- [IntelliJ IDEA 사용 방법 익히기](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study0/Intelli-J.md)
+- [자바 문법에 대한 이해 확인하기](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study0/Java.md)
 - [숫자 야구 게임 구현](https://github.com/LEE-Yerim/java-baseball-precourse/tree/step1)
 
 ### 1주차 - 단위 테스트
 - 자바 문법 및 개념 이해
-    - [package와 import]()
-    - [클래스와 인스턴스]()
-- [JUnit을 활용한 단위 테스트 이론 및 실습](https://github.com/LEE-Yerim/java-TIL/blob/step1/src/main/java/study1/JUnit.md)
-- 온라인 코드 리뷰 방식 공유
+  - [package와 import]()
+  - [클래스와 인스턴스]()
+- [JUnit을 활용한 단위 테스트 이론 및 실습](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study1/JUnit.md)
+
 - 초간단 자동차 경주 게임 구현 및 코드 리뷰
-    - [step1](https://github.com/LEE-Yerim/java-racingcar/tree/step1)
-    - [step2](https://github.com/LEE-Yerim/java-racingcar/tree/step2)
+  - [step1](https://github.com/LEE-Yerim/java-racingcar/tree/step1)
+  - [step2](https://github.com/LEE-Yerim/java-racingcar/tree/step2)
 
 ### 2주차 - TDD
 - 자바 문법 및 개념 이해
-    - [문자열]()
-    - [컬렉션 프레임워크]()
-    - [제네릭]()
-- 초간단 자동차 경주 게임 피드백
-- [TDD 이해 및 실습](https://github.com/LEE-Yerim/java-TIL/blob/step1/src/main/java/study2/TDD.md)
+  - [문자열]()
+  - [컬렉션 프레임워크]()
+  - [제네릭]()
+- [TDD 이해 및 실습](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study2/TDD.md)
 - 로또 구현 및 코드 리뷰
-    - [step1](https://github.com/LEE-Yerim/java-lotto/tree/step1)
-    - [step2](https://github.com/LEE-Yerim/java-lotto/tree/step2)
+  - [step1](https://github.com/LEE-Yerim/java-lotto/tree/step1)
+  - [step2](https://github.com/LEE-Yerim/java-lotto/tree/step2)
 
 ### 3주차 - 상속, 인터페이스
 - 자바 문법 및 개념 이해
-    - [상속](https://github.com/LEE-Yerim/java-TIL/blob/step1/src/main/java/study3/INHERITANCE.md)
-    - [인터페이스](https://github.com/LEE-Yerim/java-TIL/blob/step1/src/main/java/study3/INTERFACE.md)
-- 로또 피드백
+  - [상속](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study3/Inheritance.md)
+  - [인터페이스](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study3/Interface.md)
 - TDD/리팩터링 강의
 - 블랙잭 구현 및 코드 리뷰
-    - [step1](https://github.com/LEE-Yerim/java-blackjack/tree/step1)
+  - [step1](https://github.com/LEE-Yerim/java-blackjack/tree/step1)
+  - [step2]()
 
 ### 4주차 - FP
 - [함수형 프로그래밍]()
 - [자바 8 Stream, 람다]()
 
 ### 5주차 - OOP
-- 블랙잭 피드백
 - 4주차까지 부족한 부분에 대한 보완 강의
 - 테스트, 리팩터링, 클린 코드 강의 마무리
