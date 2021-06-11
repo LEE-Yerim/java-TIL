@@ -16,8 +16,9 @@
 
 ### 1주차 - 단위 테스트
 - 자바 문법 및 개념 이해
-  - [package와 import]()
-  - [클래스와 인스턴스]()
+  - [package와 import](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study1/Package.md)
+  - [클래스와 인스턴스](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study1/Class.md)
+  - [MVC 패턴](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study1/MVC.md)
 - [JUnit을 활용한 단위 테스트 이론 및 실습](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study1/JUnit.md)
 - 초간단 자동차 경주 게임 구현 및 코드 리뷰
   - [step1](https://github.com/LEE-Yerim/java-racingcar/tree/step1)
@@ -25,9 +26,9 @@
 
 ### 2주차 - TDD
 - 자바 문법 및 개념 이해
-  - [문자열]()
-  - [컬렉션 프레임워크]()
-  - [제네릭]()
+  - [문자열](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study2/String.md)
+  - [컬렉션 프레임워크](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study2/Collection.md)
+  - [제네릭](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study2/Generic.md)
 - [TDD 이해 및 실습](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study2/TDD.md)
 - 로또 구현 및 코드 리뷰
   - [step1](https://github.com/LEE-Yerim/java-lotto/tree/step1)
@@ -35,16 +36,18 @@
 
 ### 3주차 - 상속, 인터페이스
 - 자바 문법 및 개념 이해
+  - [함수형 프로그래밍](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study3/FunctionalProgramming.md)
+  - [자바 8 Stream, 람다](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study3/Lambda.md)
   - [상속](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study3/Inheritance.md)
   - [인터페이스](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study3/Interface.md)
-- [TDD/리팩터링 강의]()
+- [TDD/리팩터링 강의]
 - 블랙잭 구현 및 코드 리뷰
   - [step1](https://github.com/LEE-Yerim/java-blackjack/tree/step1)
-  - [step2]()
+  - [step2]
 
 ### 4주차 - FP
-- [함수형 프로그래밍]()
-- [자바 8 Stream, 람다]()
+- 함수형 프로그래밍
+- 자바 8 Stream, 람다
 
 ### 5주차 - OOP
 - 4주차까지 부족한 부분에 대한 보완 강의
