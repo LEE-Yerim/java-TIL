@@ -8,7 +8,7 @@
 ### 프리코스
 - Git
   - [Git 및 GitHub 사용 방법 익히기](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study0/Git.md)
-  - [Git](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study0/Git-Command.md)  
+  - [Git 명령어 익히기](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study0/Git-Command.md)  
   - [온라인 코드 리뷰 방식 공유](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study0/Git-CodeReview.md)
 - [IntelliJ IDEA 사용 방법 익히기](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study0/Intelli-J.md)
 - [자바 문법에 대한 이해 확인하기](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study0/Java.md)
@@ -19,7 +19,6 @@
   - [package와 import]()
   - [클래스와 인스턴스]()
 - [JUnit을 활용한 단위 테스트 이론 및 실습](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study1/JUnit.md)
-
 - 초간단 자동차 경주 게임 구현 및 코드 리뷰
   - [step1](https://github.com/LEE-Yerim/java-racingcar/tree/step1)
   - [step2](https://github.com/LEE-Yerim/java-racingcar/tree/step2)
@@ -38,7 +37,7 @@
 - 자바 문법 및 개념 이해
   - [상속](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study3/Inheritance.md)
   - [인터페이스](https://github.com/LEE-Yerim/nextstep/blob/main/src/main/java/study3/Interface.md)
-- TDD/리팩터링 강의
+- [TDD/리팩터링 강의]()
 - 블랙잭 구현 및 코드 리뷰
   - [step1](https://github.com/LEE-Yerim/java-blackjack/tree/step1)
   - [step2]()
